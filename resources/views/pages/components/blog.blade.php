@@ -47,9 +47,9 @@
             ]);
             @endphp
             @foreach($cards as $card)
-            <div class="col col-sm-3 mt-3">
-                <div class="card" style="height: 60vh; cursor: pointer;">
-                    <img class="card-img-top w-100" src="{{ $card['url'] }}" alt="{{ $card['title'] }}" style="height: 55%;">
+            <div class="col col-lg-3 col-md-6 col-sm-12 mt-3">
+                <div class="card" style="height: 60vh;">
+                    <img class="card-img-top w-100" src="{{ $card['url'] }}" alt="{{ $card['title'] }}" style="height: 55%; cursor: pointer;">
                     <div class="card-body">
                         <p class="card-title h5">{{ $card['title'] }}</p>
                         <p class="card-text">{{ $card['caption'] }}</p>

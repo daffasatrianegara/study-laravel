@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg bg-light py-3">
+<div class="navbar navbar-expand-lg bg-light py-3 fixed-top">
     <div class="container-fluid">
         <a href="/" class="navbar-brand ms-3 fs-3 fw-semibold" id="#">Tech-Blog</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

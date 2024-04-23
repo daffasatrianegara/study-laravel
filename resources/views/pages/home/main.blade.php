@@ -9,6 +9,10 @@
 </head>
 
 <style>
+    .carousel {
+        padding-top: 5em;
+    }
+
     .carousel-item {
         height: 90vh;
     }
@@ -18,7 +22,9 @@
     @include('pages.components.navbar')
     @include('pages.components.header')
     @include('pages.components.blog')
-    <p>ini halaman awal</p>
+    @include('pages.components.branding')
+    @include('pages.components.email-us')
+    @include('pages.components.footer')
     @include('conf.bootstrap-conf-js')
 </body>
 
