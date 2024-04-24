@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -15,4 +16,12 @@ Route::get('/laravel-docs', function () {
 Route::get('/home-test', function () {
     return view('pages.test.home');
 });
+
+// Route::get('/news', function() {
+//     return view('consume');
+// });
+
+Route::get('/news', [ApiController::class, 'consumeApi']);
+
+
 
